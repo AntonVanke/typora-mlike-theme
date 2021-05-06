@@ -23,4 +23,19 @@ Mlike 是我为了学习 Typora Theme 而创建的一款 Typora 自定义主题�
 
 #### 预览图
 
+![mlike](screenshots/mlike.png)
+
+![mlike-dark](screenshots/mlike-dark.png)
+
+
+
+![mlike-light](screenshots/mlike-light.png)
+
+#### LICENSE
+
+```
+MIT License
+
+Copyright (c) 2021 Vanke Anton
+```
 

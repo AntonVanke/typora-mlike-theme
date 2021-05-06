@@ -1,3 +1,4 @@
+/*ver 0.0.1 mlike*/
 @media (prefers-color-scheme: dark) {
     :root {
         /*背景*/
@@ -387,7 +388,7 @@
 }
 
 #write img:hover {
-    box-shadow: 20px 20px 40px var(--box-shadow-color);
+    box-shadow: var(--box-shadow-color) 0 1px 5px 0;
 }
 
 /*当前编辑区域*/
