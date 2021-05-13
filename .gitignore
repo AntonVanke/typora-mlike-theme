@@ -1,10 +1,10 @@
 /html/
-/fonts/*
+/mlike/*
 /default/
 
-!/fonts/fonts.css
-!/fonts/ttf/FiraCode-Regular.ttf
-!/fonts/woff2/FiraCode-Regular.woff2
-!/fonts/otf/SourceHanSansCN-Medium.otf
-!/fonts/otf/SourceHanSansCN-Normal.otf
-!/fonts/otf/SourceHanSansCN-Light.otf
+!/mlike/fonts.css
+!/mlike/ttf/FiraCode-Regular.ttf
+!/mlike/woff2/FiraCode-Regular.woff2
+!/mlike/otf/SourceHanSansCN-Medium.otf
+!/mlike/otf/SourceHanSansCN-Normal.otf
+!/mlike/otf/SourceHanSansCN-Light.otf
