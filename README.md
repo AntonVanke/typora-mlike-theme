@@ -10,26 +10,26 @@
 
 #### 关于 Mlike
 
-Mlike 是我为了学习 Typora Theme 而创建的一款 Typora 自定义主题，之所以叫 `mlike` 是因为借鉴了[MDN Web Docs (mozilla.org)](https://developer.mozilla.org/zh-CN/)的样式(但最后发现并不像 emm...)
+Mlike 是我为了学习 Typora Theme 而创建的一款 Typora 自定义主题，之所以叫 `mlike` 是因为第一版的`Mlike`借鉴了[MDN Web Docs (mozilla.org)](https://developer.mozilla.org/zh-CN/)的样式(但最后发现并不像 emm...)
 
 #### 主题的安装方法
 
-1.  下载本主题的`mlike.css`文件
+1.  下载本主题的压缩文件(releases)
 2.  打开`Typora`, 点击菜单栏的`偏好设置`-`外观`-`打开主题文件夹`
-3.  将`mlike.css`文件复制到文件夹下
-4.  重新启动`Typora`，点击菜单栏的`主题`-`mlike`
+3.  将`解压后的`文件复制到文件夹下
+4.  重新启动`Typora`，点击菜单栏的`主题`-`Mlike-*`
 
 具体的安装方法可查看 [Install Theme (typora.io)](https://theme.typora.io/doc/Install-Theme/)
 
 #### 预览图
 
-![mlike](screenshots/mlike.png)
+![Mlike](screenshots/Mlike-2.png)
 
-![mlike-dark](screenshots/mlike-dark.png)
+![Mlike-1](screenshots/Mlike-Lorem.png)
 
+![Mlike-2](screenshots/Mlike-Lorem2.png)
 
-
-![mlike-light](screenshots/mlike-light.png)
+![Mlike-3](screenshots/Mlike-Lorem3.png)
 
 #### LICENSE
 
