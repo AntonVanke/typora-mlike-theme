@@ -1,5 +1,35 @@
 /*ver 0.0.2 mlike-light*/
-@import "mlike/fonts.css";
+@include-when-export url(https://cdn.bootcdn.net/ajax/libs/firacode/5.2.0/fira_code.min.css);
+/* 字体  Font: SourceHanSans*/
+@font-face {
+    font-family: '思源黑体 CN';
+    font-weight: 300;
+    src: url("mlike/otf/SourceHanSansCN-Light.otf") format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '思源黑体 CN';
+    font-weight: 400;
+    src: url("mlike/otf/SourceHanSansCN-Normal.otf") format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '思源黑体 CN';
+    font-weight: 500;
+    src: url("mlike/otf/SourceHanSansCN-Medium.otf") format('opentype');
+    font-style: normal;
+}
+
+/* 代码块字体  Code block font: Fira Code */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('mlike/woff2/FiraCode-Regular.woff2') format('woff2'),
+    url('mlike/ttf/FiraCode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
 :root {
     /*背景颜色 background color*/
