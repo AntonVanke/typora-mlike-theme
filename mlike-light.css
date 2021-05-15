@@ -120,6 +120,7 @@ html {
 #write mark {
     background-color: rgba(0, 70, 140, .7);
     padding: 0 .4rem;
+    margin: 0 .3rem;
     font-weight: 500;
     color: rgb(255, 185, 115);
 }
@@ -169,6 +170,7 @@ html {
 #write kbd {
     background-color: var(--code-block-bg-color);
     border: 1px solid #000;
+    margin: 0 .3rem;
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .1);
@@ -259,6 +261,7 @@ input[type=checkbox]:checked + p {
     border: 1px solid #4fa8d4;
     color: #202020;
     padding: 0 .4rem;
+    margin: 0 .3rem;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
