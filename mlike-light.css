@@ -364,139 +364,139 @@ input[type=checkbox]:checked + p {
     border-left: 1px solid #505050
 }
 
-#write .CodeMirror-code span.cm-header {
+.cm-s-inner span.cm-header {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-quote {
+.cm-s-inner span.cm-quote {
     color: #a0a1a7;
     font-style: italic
 }
 
-#write .CodeMirror-code span.cm-negative {
+.cm-s-inner span.cm-negative {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-positive {
+.cm-s-inner span.cm-positive {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-strong {
+.cm-s-inner span.cm-strong {
     color: #986801;
     font-weight: 700
 }
 
-#write .CodeMirror-code span.cm-header .cm-strong {
+.cm-s-inner span.cm-header .cm-strong {
     color: #986801;
     font-weight: 700
 }
 
-#write .CodeMirror-code span.cm-em {
+.cm-s-inner span.cm-em {
     color: #a626a4;
     font-style: italic
 }
 
-#write .CodeMirror-code span.cm-header .cm-em {
+.cm-s-inner span.cm-header .cm-em {
     color: #a626a4;
     font-style: italic
 }
 
-#write .CodeMirror-code span.cm-tag {
+.cm-s-inner span.cm-tag {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-attribute {
+.cm-s-inner span.cm-attribute {
     color: #d19a66
 }
 
-#write .CodeMirror-code span.cm-link {
+.cm-s-inner span.cm-link {
     color: #4078f2;
     border-bottom: solid 1px #4078f2
 }
 
-#write .CodeMirror-code span.cm-string.cm-url {
+.cm-s-inner span.cm-string.cm-url {
     color: #0184bc;
     border-bottom: solid 1px #0184bc
 }
 
-#write .CodeMirror-code span.cm-builtin {
+.cm-s-inner span.cm-builtin {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-keyword {
+.cm-s-inner span.cm-keyword {
     color: #a626a4
 }
 
-#write .CodeMirror-code span.cm-def {
+.cm-s-inner span.cm-def {
     color: #4078f2
 }
 
-#write .CodeMirror-code span.cm-atom {
+.cm-s-inner span.cm-atom {
     color: #d19a66
 }
 
-#write .CodeMirror-code span.cm-number {
+.cm-s-inner span.cm-number {
     color: #986801
 }
 
-#write .CodeMirror-code span.cm-property {
+.cm-s-inner span.cm-property {
     color: #4078f2
 }
 
-#write .CodeMirror-code span.cm-qualifier {
+.cm-s-inner span.cm-qualifier {
     color: #986801
 }
 
-#write .CodeMirror-code span.cm-variable {
+.cm-s-inner span.cm-variable {
     color: #e06c75
 }
 
-#write .CodeMirror-code span.cm-variable-2 {
+.cm-s-inner span.cm-variable-2 {
     color: #e45649
 }
 
-#write .CodeMirror-code span.cm-string {
+.cm-s-inner span.cm-string {
     color: #50a14f
 }
 
-#write .CodeMirror-code span.cm-punctuation {
+.cm-s-inner span.cm-punctuation {
     color: #383a42
 }
 
-#write .CodeMirror-code span.cm-operator {
+.cm-s-inner span.cm-operator {
     color: #0184bc
 }
 
-#write .CodeMirror-code span.cm-meta {
+.cm-s-inner span.cm-meta {
     color: #383a42
 }
 
-#write .CodeMirror-code span.cm-bracket {
+.cm-s-inner span.cm-bracket {
     color: #383a42
 }
 
-#write .CodeMirror-code span.cm-comment {
+.cm-s-inner span.cm-comment {
     color: #a0a1a7;
     font-style: italic
 }
 
-#write .CodeMirror-code span.cm-error {
+.cm-s-inner span.cm-error {
     color: #e06c75
 }
 
-#write .CodeMirror-code span.cm-m-css.cm-variable {
+.cm-s-inner span.cm-m-css.cm-variable {
     color: #828997
 }
 
-#write .CodeMirror-code span.cm-m-css.cm-property {
+.cm-s-inner span.cm-m-css.cm-property {
     color: #383a42
 }
 
-#write .CodeMirror-code span.cm-m-css.cm-atom {
+.cm-s-inner span.cm-m-css.cm-atom {
     color: #0184bc
 }
 
-#write .CodeMirror-code span.cm-m-css.cm-builtin {
+.cm-s-inner span.cm-m-css.cm-builtin {
     color: #56b6c2
 }
 
