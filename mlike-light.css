@@ -1,35 +1,7 @@
-/*ver 0.0.2 mlike-light*/
+/*ver 0.1.1 mlike-light*/
+@import "mlike/fonts.css";
+
 @include-when-export url(https://cdn.bootcdn.net/ajax/libs/firacode/5.2.0/fira_code.min.css);
-/* 字体  Font: SourceHanSans*/
-@font-face {
-    font-family: '思源黑体 CN';
-    font-weight: 300;
-    src: url("mlike/otf/SourceHanSansCN-Light.otf") format('opentype');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: '思源黑体 CN';
-    font-weight: 400;
-    src: url("mlike/otf/SourceHanSansCN-Normal.otf") format('opentype');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: '思源黑体 CN';
-    font-weight: 500;
-    src: url("mlike/otf/SourceHanSansCN-Medium.otf") format('opentype');
-    font-style: normal;
-}
-
-/* 代码块字体  Code block font: Fira Code */
-@font-face {
-    font-family: 'Fira Code';
-    src: url('mlike/woff2/FiraCode-Regular.woff2') format('woff2'),
-    url('mlike/ttf/FiraCode-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
 
 :root {
     /*背景颜色 background color*/
@@ -37,7 +9,7 @@
     /*文字颜色 Text color*/
     --text-color: #333333;
     /*代码背景颜色 Code block background color*/
-    --code-block-bg-color: inherit;
+    --code-block-bg-color: #f5f5f5;
 
     /*基本字体*/
     --font-family: '思源黑体 CN', 'Segoe UI', SegoeUI, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;
@@ -62,10 +34,16 @@ html {
 
 #write .md-meta-block {
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     color: #202020;
     font-family: var(--code-font-family);
     border-bottom: 1px dashed #000;
+}
+
+#write .md-comment {
+    color: #cccac7;
+    font-size: .8rem;
+    font-family: var(--code-font-family);
 }
 
 #write h1,
@@ -169,10 +147,11 @@ html {
 }
 
 #write blockquote {
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     color: #202020;
     margin: 20px 0;
     padding: 20px !important;
+    border: 1px solid #4fa8d4;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -188,7 +167,7 @@ html {
 }
 
 #write kbd {
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     border: 1px solid #000;
     box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, .1);
@@ -236,7 +215,7 @@ input[type=checkbox]:checked + p {
 }
 
 #write table {
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     margin: 20px 0;
     box-shadow: 6px 6px 17px -5px rgba(0, 0, 0, .2);
     -webkit-box-shadow: 6px 6px 17px -5px rgba(0, 0, 0, .2);
@@ -277,8 +256,12 @@ input[type=checkbox]:checked + p {
 #write code {
     font-family: var(--code-font-family);
     background-color: #f0f0f0;
+    border: 1px solid #4fa8d4;
     color: #202020;
     padding: 0 .4rem;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #write img {
@@ -296,7 +279,7 @@ input[type=checkbox]:checked + p {
 .md-fences {
     --code-lang: attr(lang);
     font-family: var(--code-font-family);
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     color: #202020;
     margin: 20px 0;
     padding: 35px 20px 20px !important;
@@ -349,7 +332,7 @@ input[type=checkbox]:checked + p {
 }
 
 #ty-auto-suggest {
-    background-color: #f5f5f5;
+    background-color: var(--code-block-bg-color);
     color: #202020;
     box-shadow: 6px 6px 17px -5px rgba(0, 0, 0, .2);
     -webkit-box-shadow: 6px 6px 17px -5px rgba(0, 0, 0, .2);
@@ -361,7 +344,7 @@ input[type=checkbox]:checked + p {
 }
 
 .CodeMirror-gutters {
-    background: #f5f5f5;
+    background: var(--code-block-bg-color);
     border-right: 0
 }
 
@@ -381,60 +364,154 @@ input[type=checkbox]:checked + p {
     border-left: 1px solid #505050
 }
 
-span.cm-comment {
-    color: #8f5536
+#write .CodeMirror-code span.cm-header {
+    color: #e45649
 }
 
-span.cm-atom {
-    color: #aa759f
+#write .CodeMirror-code span.cm-quote {
+    color: #a0a1a7;
+    font-style: italic
 }
 
-span.cm-number {
-    color: #aa759f
+#write .CodeMirror-code span.cm-negative {
+    color: #e45649
 }
 
-span.cm-attribute, span.cm-property {
-    color: #90a959
+#write .CodeMirror-code span.cm-positive {
+    color: #e45649
 }
 
-span.cm-keyword {
-    color: #ac4142
+#write .CodeMirror-code span.cm-strong {
+    color: #986801;
+    font-weight: 700
 }
 
-span.cm-string {
-    color: #f4bf75
+#write .CodeMirror-code span.cm-header .cm-strong {
+    color: #986801;
+    font-weight: 700
 }
 
-span.cm-variable {
-    color: #90a959
+#write .CodeMirror-code span.cm-em {
+    color: #a626a4;
+    font-style: italic
 }
 
-span.cm-variable-2 {
-    color: #6a9fb5
+#write .CodeMirror-code span.cm-header .cm-em {
+    color: #a626a4;
+    font-style: italic
 }
 
-span.cm-def {
-    color: #d28445
+#write .CodeMirror-code span.cm-tag {
+    color: #e45649
 }
 
-span.cm-bracket {
-    color: #202020
+#write .CodeMirror-code span.cm-attribute {
+    color: #d19a66
 }
 
-span.cm-tag {
-    color: #ac4142
+#write .CodeMirror-code span.cm-link {
+    color: #4078f2;
+    border-bottom: solid 1px #4078f2
 }
 
-span.cm-link {
-    color: #aa759f
+#write .CodeMirror-code span.cm-string.cm-url {
+    color: #0184bc;
+    border-bottom: solid 1px #0184bc
 }
 
-span.cm-error {
-    background: #ac4142;
-    color: #505050
+#write .CodeMirror-code span.cm-builtin {
+    color: #e45649
 }
+
+#write .CodeMirror-code span.cm-keyword {
+    color: #a626a4
+}
+
+#write .CodeMirror-code span.cm-def {
+    color: #4078f2
+}
+
+#write .CodeMirror-code span.cm-atom {
+    color: #d19a66
+}
+
+#write .CodeMirror-code span.cm-number {
+    color: #986801
+}
+
+#write .CodeMirror-code span.cm-property {
+    color: #4078f2
+}
+
+#write .CodeMirror-code span.cm-qualifier {
+    color: #986801
+}
+
+#write .CodeMirror-code span.cm-variable {
+    color: #e06c75
+}
+
+#write .CodeMirror-code span.cm-variable-2 {
+    color: #e45649
+}
+
+#write .CodeMirror-code span.cm-string {
+    color: #50a14f
+}
+
+#write .CodeMirror-code span.cm-punctuation {
+    color: #383a42
+}
+
+#write .CodeMirror-code span.cm-operator {
+    color: #0184bc
+}
+
+#write .CodeMirror-code span.cm-meta {
+    color: #383a42
+}
+
+#write .CodeMirror-code span.cm-bracket {
+    color: #383a42
+}
+
+#write .CodeMirror-code span.cm-comment {
+    color: #a0a1a7;
+    font-style: italic
+}
+
+#write .CodeMirror-code span.cm-error {
+    color: #e06c75
+}
+
+#write .CodeMirror-code span.cm-m-css.cm-variable {
+    color: #828997
+}
+
+#write .CodeMirror-code span.cm-m-css.cm-property {
+    color: #383a42
+}
+
+#write .CodeMirror-code span.cm-m-css.cm-atom {
+    color: #0184bc
+}
+
+#write .CodeMirror-code span.cm-m-css.cm-builtin {
+    color: #56b6c2
+}
+
 
 /*other*/
+
+.sidebar-menu {
+    background-color: var(--bg-color) !important;
+    border-right: 1px dashed #000000 !important;
+}
+
+.sidebar-content {
+    border-top: 1px dashed #000000 !important;
+}
+
 table.md-grid-board {
     box-shadow: none !important;
     -webkit-box-shadow: none !important;
