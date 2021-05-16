@@ -7,7 +7,7 @@
 
 #### 关于Mlike
 
-<img src="_preview/Mlike.png" alt="Mlike" style="zoom:25%;" />
+[![Mlike](https://z3.ax1x.com/2021/05/16/gcwFqs.md.png)](https://imgtu.com/i/gcwFqs)
 
 `Mlike`,根据我喜欢的方式来定义`Markdown`。我并不会`css`，我只能通过[ MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)来学习如何编写`css`，并打造我喜欢的 Typora 主题。如果你恰巧也喜欢这个主题，可以点个`Star`，如果你有想法或者建议，也可以 告诉我/`PR`，感谢。
 
@@ -24,13 +24,13 @@
 
 #### 预览图
 
-![](_preview/Mlike-Dark2.png)
+[![Mlike-Dark2](https://z3.ax1x.com/2021/05/16/gcwSG8.md.png)](https://imgtu.com/i/gcwSG8)
 
-![Mlike-Dark3](_preview/Mlike-Dark3.png)
+[![Mlike-Dark3](https://z3.ax1x.com/2021/05/16/gcdzPf.md.png)](https://imgtu.com/i/gcdzPf)
 
-![Mlike-Dark3](_preview/Mlike-Light2.png)
+[![Mlike-Light2](https://z3.ax1x.com/2021/05/16/gcdvIP.md.png)](https://imgtu.com/i/gcdvIP)
 
-![Mlike-Dark3](_preview/Mlike-Light3.png)
+[![Mlike-Light3](https://z3.ax1x.com/2021/05/16/gcwPMQ.md.png)](https://imgtu.com/i/gcwPMQ)
 
 >   更多预览请查看 [AntonVanke/typora-mlike-theme: A typora theme. 一个 Typora 主题 (github.com)](https://github.com/AntonVanke/typora-mlike-theme) 下的`_preview`文件夹，如果你的网络环境不好，你也可以访问`_preview`文件夹下的 [`preview.md`](_preview/preview.md) 查看图片。
 
