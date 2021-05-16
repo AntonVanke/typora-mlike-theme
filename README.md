@@ -1,5 +1,4 @@
-![[Releases](https://github.com/AntonVanke/typora-mlike-theme/releases)](https://badgen.net/github/tag/AntonVanke/typora-mlike-theme/)![[Releases](https://github.com/AntonVanke/typora-mlike-theme/releases)](https://badgen.net/github/assets-dl/AntonVanke/typora-mlike-theme)
-
+<a href="https://github.com/AntonVanke/typora-mlike-theme/releases"><img src="https://badgen.net/github/assets-dl/AntonVanke/typora-mlike-theme" alt="Releases"  /></a>
 ---
 
 `简体中文` | [English](README_EN.md)
@@ -34,6 +33,8 @@
 ![Mlike-Dark3](_preview/Mlike-Light3.png)
 
 >   更多预览请查看 [AntonVanke/typora-mlike-theme: A typora theme. 一个 Typora 主题 (github.com)](https://github.com/AntonVanke/typora-mlike-theme) 下的`_preview`文件夹，如果你的网络环境不好，你也可以访问`_preview`文件夹下的 [`preview.md`](_preview/preview.md) 查看图片。
+
+CodeMirror 主题为 `ONE`
 
 #### LICENSE
 

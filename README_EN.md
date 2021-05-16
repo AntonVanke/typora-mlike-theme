@@ -1,5 +1,4 @@
-![[Releases](https://github.com/AntonVanke/typora-mlike-theme/releases)](https://badgen.net/github/tag/AntonVanke/typora-mlike-theme/)![[Releases](https://github.com/AntonVanke/typora-mlike-theme/releases)](https://badgen.net/github/assets-dl/AntonVanke/typora-mlike-theme)
-
+<a href="https://github.com/AntonVanke/typora-mlike-theme/releases"><img src="https://badgen.net/github/assets-dl/AntonVanke/typora-mlike-theme" alt="Releases"  /></a>
 ---
 
 [简体中文](README.md) | `English`
@@ -20,7 +19,7 @@
 2.  Reopen Typora.
 3.  Switch theme to`mlike-light.css` or `mlike-dark.css` .
 
-具体的安装方法可查看 [Install Theme (typora.io)](https://theme.typora.io/doc/Install-Theme/)
+Please refer to [Install Theme (typora.io)](https://theme.typora.io/doc/Install-Theme/)
 
 #### Preview
 
@@ -33,6 +32,8 @@
 ![Mlike-Dark3](_preview/Mlike-Light3.png)
 
 >   For more previews, see [`preview.md`](_preview/preview.md) file.
+
+CodeMirror Theme is `ONE`
 
 #### LICENSE
 
