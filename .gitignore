@@ -2,9 +2,13 @@
 /mlike/*
 /default/
 
+*.test.css
+
 !/mlike/fonts.css
 !/mlike/ttf/FiraCode-Regular.ttf
 !/mlike/woff2/FiraCode-Regular.woff2
 !/mlike/otf/SourceHanSansCN-Medium.otf
 !/mlike/otf/SourceHanSansCN-Normal.otf
 !/mlike/otf/SourceHanSansCN-Light.otf
+
+/.idea/*
