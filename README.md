@@ -15,7 +15,7 @@
 
 #### 主题的安装方法
 
-1.  下载本主题的压缩文件[Latest release](https://github.com/AntonVanke/JDBrandMember/releases/latest)
+1.  下载本主题的压缩文件[Latest release](https://github.com/AntonVanke/typora-mlike-theme/releases/latest)
 2.  打开`Typora`, 点击菜单栏的`偏好设置`-`外观`-`打开主题文件夹`
 3.  将`解压后的`文件复制到主题文件夹下(压缩包包含`mlike`文件夹、`mlike-light.css`、`mlike-dark.css`)
 4.  重新启动`Typora`，点击菜单栏的`主题`-`Mlike Light`或者`Mlike Dark`
