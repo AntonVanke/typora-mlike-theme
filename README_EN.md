@@ -1,4 +1,6 @@
-<a href="https://github.com/AntonVanke/typora-mlike-theme/releases"><img src="https://badgen.net/github/assets-dl/AntonVanke/typora-mlike-theme" alt="Releases"  /></a>
+<a href="https://github.com/AntonVanke/typora-mlike-theme/releases"><img src="https://img.shields.io/github/downloads/AntonVanke/typora-mlike-theme/total?style=for-the-badge" alt="Releases"  /></a>
+<a href="https://github.com/AntonVanke/typora-mlike-theme/releases"><img src="https://img.shields.io/github/v/release/AntonVanke/typora-mlike-theme?style=for-the-badge" alt="Releases"  /></a>
+
 ---
 
 [简体中文](README.md) | `English`
@@ -15,7 +17,7 @@
 
 #### How to install theme
 
-1.  Put the `mlike`folder, `mlike-light.css`and `mlike-dark.css` into the theme folder.
+1.  Put the `mlike`folder, `mlike.css` `mlike-light.css`and `mlike-dark.css` into the theme folder.
 2.  Reopen Typora.
 3.  Switch theme to`mlike-light.css` or `mlike-dark.css` .
 
@@ -23,13 +25,13 @@ Please refer to [Install Theme (typora.io)](https://theme.typora.io/doc/Install-
 
 #### Preview
 
-![](_preview/Mlike-Dark2.png)
+![](_preview/Mlike_Dark_Mac_1.png)
 
-![Mlike-Dark3](_preview/Mlike-Dark3.png)
+![](_preview/Mlike_Dark_Windows_1.png)
 
-![Mlike-Dark3](_preview/Mlike-Light2.png)
+![](_preview/Mlike_Light_Mac_1.png)
 
-![Mlike-Dark3](_preview/Mlike-Light3.png)
+![](_preview/Mlike_Light_Windows_1.png)
 
 >   For more previews, see [`preview.md`](_preview/preview.md) file.
 
